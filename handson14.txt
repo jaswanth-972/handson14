@@ -1,0 +1,44 @@
+Implement and test on examples from the book. Then upload your source code to GitHub. Do this for the following algorithms:
+
+1.  Dijkstra's algorithm
+Solution: dijkstraAlgo.py
+Shortest distances from source 's':
+s: 0
+t: 3
+y: 5
+x: 9
+z: 11
+
+Shortest paths from source 's':
+Path to s: s
+Path to t: s -> t
+Path to y: s -> y
+Path to x: s -> t -> x
+Path to z: s -> y -> z
+
+2. Bellman-Ford algorithm
+Solution: bellManFloydAlgo.py
+Shortest distances from source 's':
+s: 0
+t: 3
+y: 5
+x: 9
+z: 11
+
+Shortest paths from source 's':
+Path to s: s
+Path to t: s -> t
+Path to y: s -> y
+Path to x: s -> t -> x
+Path to z: s -> y -> z
+
+
+3. Floyd-Warshall algorithm
+Solution: flyodWarlshall.py
+Distance matrix:
+    s  t  y  x  z
+s   0    3    5    9    11
+t   11   0    2    6    8
+y   9    1    0    4    6
+x   5    8    10   0    2
+z   3    6    8    7    0
